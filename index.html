@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Legal Solution Practise</title>
-</head>
-<body>
-    
-</body>
+    <!-- tailwind cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="max-w-[1440px] m-auto px-5 secondary-font">
+    <!-- content container -->
+    <div class="max-w-[1170px] m-auto">
+      <!-- nav -->
+      <nav class="flex justify-center sm:justify-between items-center mt-4">
+        <img src="./images/logo2.png" alt="Logo" class="" />
+        <ul class="lg:flex justify-center items-center gap-8 dark-3 hidden">
+          <li><a href="">Home</a></li>
+          <li>
+            <a href="">Services <i class="fa-solid fa-chevron-right"></i></a>
+          </li>
+          <li>
+            <a href="">Cases <i class="fa-solid fa-chevron-right"></i></a>
+          </li>
+          <li>
+            <a href="">Blog <i class="fa-solid fa-chevron-right"></i></a>
+          </li>
+          <li>
+            <a href="">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
+          </li>
+        </ul>
+
+        <button
+          class="bg-[#B68C5A] px-7 py-3 text-lg font-semibold rounded-lg text-white hidden sm:block"
+        >
+          Free Consultation
+        </button>
+      </nav>
+    </div>
+  </body>
 </html>
