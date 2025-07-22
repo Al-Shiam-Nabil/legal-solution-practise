@@ -1,52 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Legal Solution Practise</title>
-    <!-- tailwind cdn -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-    <!-- css link -->
-    <link rel="stylesheet" href="./style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Legal Solution Practise</title>
+  <!-- tailwind cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-    <!-- font awesome cdn -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body class="max-w-[1440px] m-auto px-5 secondary-font">
-    <!-- content container -->
-    <div class="max-w-[1170px] m-auto">
+  <!-- css link -->
+  <link rel="stylesheet" href="./style.css" />
+
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="max-w-[1440px] m-auto px-4 md:px-7 secondary-font">
+  <!-- content container -->
+  <div class="max-w-[1170px] m-auto">
+  <header>
       <!-- nav -->
-      <nav class="flex justify-center sm:justify-between items-center mt-4">
-        <img src="./images/logo2.png" alt="Logo" class="" />
-        <ul class="lg:flex justify-center items-center gap-8 dark-3 hidden">
-          <li><a href="">Home</a></li>
-          <li>
-            <a href="">Services <i class="fa-solid fa-chevron-right"></i></a>
-          </li>
-          <li>
-            <a href="">Cases <i class="fa-solid fa-chevron-right"></i></a>
-          </li>
-          <li>
-            <a href="">Blog <i class="fa-solid fa-chevron-right"></i></a>
-          </li>
-          <li>
-            <a href="">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
-          </li>
-        </ul>
+    <nav class="flex justify-center sm:justify-between items-center mt-4">
+      <img src="./images/logo2.png" alt="Logo" class="" />
+      <ul class="lg:flex justify-center items-center gap-8 dark-3 hidden">
+        <li><a href="">Home</a></li>
+        <li>
+          <a href="">Services <i class="fa-solid fa-chevron-right"></i></a>
+        </li>
+        <li>
+          <a href="">Cases <i class="fa-solid fa-chevron-right"></i></a>
+        </li>
+        <li>
+          <a href="">Blog <i class="fa-solid fa-chevron-right"></i></a>
+        </li>
+        <li>
+          <a href="">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
+        </li>
+      </ul>
 
-        <button
-          class="bg-[#B68C5A] px-7 py-3 text-lg font-semibold rounded-lg text-white hidden sm:block"
-        >
-          Free Consultation
-        </button>
-      </nav>
-    </div>
-  </body>
+      <button class="bg-[#B68C5A] px-7 py-3 text-lg font-semibold rounded-lg text-white hidden sm:block">
+        Free Consultation
+      </button>
+    </nav>
+
+ <section class="bg-[linear-gradient(180deg,_rgb(17,17,17),_rgba(17,17,17,0)),url('./images/banner.png')] w-full h-[550px] bg-no-repeat bg-cover bg-center rounded-lg mt-14 flex flex-col justify-center items-center text-center space-y-6 px-3">
+
+<h1 class="max-w-[660px] text-5xl lg:text-7xl font-extrabold primary-font text-white">We Provide Effective Legal Solutions</h1>
+
+<p class="text-[#E7E7E7] max-w-[660px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+<form class="max-w[660px] w-full flex flex-col gap-5 justify-center items-center sm:flex-row mt-1">
+  <input type="text" name="search" id="search" placeholder="Search your services" class="bg-white max-w-[500px] rounded-lg w-full px-5 h-12.5 ">
+  <input class="px-9 bg-[#B68C5A] h-12.5 text-lg text-white font-semibold rounded-lg " type="submit" value="Search">
+</form>
+ </section>
+
+  
+  </header>
+  </div>
+</body>
+
 </html>
